@@ -1,0 +1,46 @@
+/* for navbar to fit screen */
+html body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    font-family: 'Ethnocentric', arial;
+    font-size: 20px;
+}
+
+a{
+    margin: 0px 10px;
+}
+
+nav a{
+    color:white !important;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    width: 200px;
+}
+
+
+.bg-dark{
+    background-color: rgb(38, 48, 53) !important;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #da0024 !important;
+}
+
+.navbar-toggler {
+    float: right;
+  }
+
+#brand{
+    font-family: 'Carter One', cursive;
+    font-size: 32px;
+}
+
+.nav-link{
+    padding: 0px;
+}

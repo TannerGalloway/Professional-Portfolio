@@ -1,0 +1,82 @@
+.workDone{
+  font-family: 'Raleway', sans-serif;
+  margin: 20px 30px;
+  position: relative;
+}
+
+/* Laptops 992px and up */
+@media only screen and (min-width: 992px) {
+  .workDone{
+    width: 250px;
+  }
+
+  .projectName{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .projectlanguages{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: #da0024;
+    font-weight: bold;
+  }
+
+  .image{
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+
+  .project-details{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .project-button{
+    margin-left: 2px;
+  }
+
+  .overlay{
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .workDone:hover .image{
+    opacity: 0.3;
+  }
+
+  .workDone:hover .overlay{
+    opacity: 1;
+  }
+}
+
+/* Desktops 1400px and up */
+@media only screen and (min-width: 1400px) {
+  .workDone{
+    width: 310px;
+  }
+
+  .projectName{
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .projectlanguages{
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  .project-details{
+    position: absolute;
+    top: 0%;
+    left: 3%;
+  }
+}
+
+.workDone img {
+    width: 100%;
+  }

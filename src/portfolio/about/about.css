@@ -1,0 +1,96 @@
+.title{
+    position: relative;
+    top: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* line under about */
+hr{
+    border: 2px solid #da0024;
+    width: 70px;
+}
+
+.aboutParagraph{
+    text-align: center;
+    padding-top: 32px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.highlight{
+    color: #da0024;
+}
+
+/* Tablets 600px and up */
+@media only screen and (min-width: 600px) {
+    hr{
+        position: relative;
+        left: 263px;
+    }
+
+    .aboutParagraph{
+        margin: 0px 100px;
+    }
+} 
+
+
+/* Laptops 992px and up */
+@media only screen and (min-width: 992px) {
+    hr{
+        position: relative;
+        left: 460px;
+    }
+
+    .aboutParagraph{
+        margin: 0px 275px;
+    }
+}
+
+/* Desktops 1400px and up */
+@media only screen and (min-width: 1400px) {
+    hr{
+        position: relative;
+        left: 733px;
+    }
+
+    .aboutParagraph{
+        margin: 0px 420px;
+    }
+}
+
+/* Large Desktops 1600px and up */
+@media only screen and (min-width: 1600px) {
+    hr{
+        position: relative;
+        left: 922px;
+    }
+
+    .aboutParagraph{
+        margin: 0px 606px;
+    }
+}
+
+/* Phones 480px and down */
+@media only screen and (max-width: 480px) {
+    hr{
+        position: relative;
+        left: 144px;
+    }
+
+    .aboutParagraph{
+        margin: 0px 15px;
+    }
+} 
+
+
+
+
+

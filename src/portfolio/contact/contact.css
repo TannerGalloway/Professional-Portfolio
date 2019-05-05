@@ -1,0 +1,150 @@
+.contact{
+    background-color: #2C373D;
+}
+
+/* title */
+.contact-title{
+    color: white;
+    position: relative;
+    top: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input{
+    display: block;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(34, 41, 44);
+    border-color: transparent;
+    color: grey;
+}
+
+input:focus{
+  outline: #DC3245;
+  background-color: rgb(34, 41, 44);
+  border-color: #DC3545;
+  box-shadow: none;
+  color: white;
+}
+
+textarea {
+    resize: none;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    padding: 10px;
+    background-color: rgb(34, 41, 44);
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+    color: grey;
+  }
+  
+  textarea:focus{
+    outline: #DC3245;
+    background-color: rgb(34, 41, 44);
+    border-color: #DC3545;
+    color: white;
+  }
+
+
+#contactButton{
+    position: relative;
+    top: 55px;
+    right: 25px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    float: right;
+}
+
+#contactButton:hover{
+    background-color: #DC3245;
+    border-color: #DC3245; 
+}
+
+/* Tablets 600px and up */
+@media only screen and (min-width: 600px) {
+    .formBox{
+        position: relative;
+        left: 130px;
+        width: 350px;
+    }
+
+    .contact{
+        height: 63vh;
+    }
+} 
+
+/* Laptops 992px and up */
+@media only screen and (min-width: 992px) {
+
+    .formBox{
+        position: relative;
+        left: 300px;
+        width: 410px;
+    }
+
+    #contactButton{
+        position: relative;
+        top: 250px;
+        right: 35px;
+    }
+
+    .contact{
+        height: 85vh;
+    }
+}
+
+/* Desktops 1400px and up */
+@media only screen and (min-width: 1400px) {
+
+    .formBox{
+        position: relative;
+        left: 560px;
+        width: 410px;
+    }
+
+    #contactButton{
+        position: relative;
+        top: 250px;
+        right: 35px;
+    }
+
+    .contact{
+        height: 80vh;
+    }
+}
+
+/* Large Desktops 1600px and up */
+@media only screen and (min-width: 1600px) {
+    .formBox{
+        position: relative;
+        left: 755px;
+        width: 410px;
+    }
+
+    .contact{
+        height: 70vh;
+    }
+}
+
+/* Phones 480px and down */
+@media only screen and (max-width: 480px) {
+    .formBox{
+        position: relative;
+        left: 35px;
+        width: 300px;
+    }
+
+    .contact{
+        height: 103vh;
+    }
+}
+

@@ -1,0 +1,31 @@
+.work {
+  position: relative;
+  width: 274px;
+  margin: 40px 0px;
+}
+
+  .work img {
+    width: 100%;
+  }
+
+  h3 {
+    width: 100%;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .ProjectButton{
+    position: relative;
+    top: 20px;
+  }
+
+  .projectlanguages{
+    text-align: center;
+    color: #DC3542;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+
+  }

@@ -1,0 +1,115 @@
+.skills-content{
+    background-color: #F5F5F5;
+}
+
+/* box with skills */
+.skills{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px black;
+    margin-top: 35px;
+}
+
+.skillBoxText{
+    position: relative;
+    left: 20px;
+    text-transform: uppercase;
+}
+
+/* line under "skills" word */
+hr{
+    border: 2px solid #da0024;
+    width: 70px;
+}
+
+.skillsParagraph{
+    text-align: center;
+    padding-top: 32px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* image div */
+.skills-div{
+    display: inline;
+    padding-left: 10px;
+}
+/* images */
+.skills-logo{
+    height: 70px;
+    width: 70px;
+}
+
+
+/* Tablets 600px and up */
+@media only screen and (min-width: 600px) {
+    .skills{
+        left: 70px;
+        height: 180px;
+        width: 450px;
+    }
+
+    .back-end{  
+        height: 110px;
+        width: 450px; 
+    }
+} 
+
+/* Laptops 992px and up */
+@media only screen and (min-width: 992px) {
+    .skills{
+        height: 130px;
+        width: 645px;
+    }
+
+    .front-end{
+        left: 205px;
+    }
+
+    .back-end{
+        left: 275px;
+        height: 110px;
+        width: 490px; 
+    }
+}
+
+/* Desktops 1400px and up */
+@media only screen and (min-width: 1400px) {
+    .front-end{
+        left: 435px;
+    }
+
+    .back-end{
+        left: 515px;
+        height: 110px;
+    }
+}
+
+/* Large Desktops 1600px and up */
+@media only screen and (min-width: 1600px) {
+    .front-end{
+        left: 595px;
+    }
+
+    .back-end{
+        left: 755px;
+        height: 110px;
+        width: 405px; 
+    }
+}
+
+/* Phones 480px and down */
+@media only screen and (max-width: 480px) {
+    .skills{
+        left: 50px;
+        width: 260px;
+        height: 250px;
+    }
+
+    .back-end{
+        height: 180px;
+        width: 260px; 
+    }
+}
+

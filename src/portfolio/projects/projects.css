@@ -1,0 +1,28 @@
+/* laptop, desktop */
+.breakpoint__large-up{
+    display: flex;   
+    flex-wrap: wrap;
+  }
+
+  /* styles for phone, tablet */
+  .breakpoint__medium-down{
+    display: flex;   
+    flex-wrap: wrap;
+  }
+
+/* Tablets 600px and up */
+ @media only screen and (min-width: 600px) {
+
+    .work{
+        position: relative;
+        left: 110px; 
+    }
+} 
+
+/* Phones 480px and down */
+@media only screen and (max-width: 480px) {
+    .work{
+        position: relative;
+        left: 35px; 
+    }
+}

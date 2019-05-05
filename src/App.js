@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BreakpointProvider } from 'react-socks';
+import Home from "./portfolio/home/home";
+import Navigation from "./components/navbar/navbar";
+import About from "./portfolio/about/about";
+import Skills from "./portfolio/skills/skills";
+import Projects from "./portfolio/projects/projects";
+import Contact from "./portfolio/contact/contact";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+function App(props) {
+  return (
+    <div className="content">
+      <Home/>
+      <Navigation/>
+      <About/>
+      <Skills/>
+      {/* BreakpointProvider allows displaying different elements on different viewports */}
+      <BreakpointProvider>
+        <Projects/>
+      </BreakpointProvider>
+      <Contact column={props.column}/>
+    </div>
+  );
 }
 
 export default App;
