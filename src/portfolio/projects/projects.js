@@ -32,7 +32,7 @@ class Projects extends Component{
 
                             <ProjectLargeViewport name="Word Guessing Game" src={WordGuess} languages="HTML, CSS, Javascript" webpage="https://tannergalloway.github.io/Word-Guess-Game/" code="https://github.com/TannerGalloway/Word-Guess-Game"/>
 
-                            <ProjectLargeViewport name="RNG Matching Game" src={RNGGame} languages="HTML, CSS, Bootstrap, Javascript" webpage="https://tannergalloway.github.io/Unit-4-game/" code="https://github.com/TannerGalloway/Unit-4-game"/>
+                            <ProjectLargeViewport name="RNG Matching Game" src={RNGGame} languages="HTML, CSS, Bootstrap, Javascript" webpage="https://tannergalloway.github.io/RNG-Matching-Game/" code="https://github.com/TannerGalloway/RNG-Matching-Game"/>
 
                             <ProjectLargeViewport name="Trivia Game" src={Trivia} languages="HTML, CSS, Bootstrap, Javascript" webpage="https://tannergalloway.github.io/TriviaGame/" code="https://github.com/TannerGalloway/TriviaGame"/>
 
@@ -61,7 +61,7 @@ class Projects extends Component{
 
                             <ProjectMediumViewport name="Word Guessing Game" src={WordGuess} languages="HTML, CSS, Javascript" webpage="https://tannergalloway.github.io/Word-Guess-Game/" code="https://github.com/TannerGalloway/Word-Guess-Game"/>
 
-                            <ProjectMediumViewport name="RNG Matching Game" src={RNGGame} languages="HTML, CSS, Javascript" webpage="https://tannergalloway.github.io/Unit-4-game/" code="https://github.com/TannerGalloway/Unit-4-game"/>
+                            <ProjectMediumViewport name="RNG Matching Game" src={RNGGame} languages="HTML, CSS, Javascript" webpage="https://tannergalloway.github.io/RNG-Matching-Game/" code="https://github.com/TannerGalloway/RNG-Matching-Game"/>
 
                             <ProjectMediumViewport name="Trivia Game" src={Trivia} languages="HTML, CSS, Javascript" webpage="https://tannergalloway.github.io/TriviaGame/" code="https://github.com/TannerGalloway/TriviaGame"/>
 
