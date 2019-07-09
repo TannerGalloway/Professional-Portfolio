@@ -17,6 +17,7 @@ import Bamazon from "../../images/project-thumbnails/online-store.jpg";
 import Webscrape from "../../images/project-thumbnails/web-scraper.png";
 import Memorygame from "../../images/project-thumbnails/memory-game.jpg";
 import RoadTrip from "../../images/project-thumbnails/Road-Trip-Planner.jpg";
+import Recipes from '../../images/project-thumbnails/logo.png';
 
 class Projects extends Component{
     render(){
@@ -29,6 +30,8 @@ class Projects extends Component{
                 <div className="container">
                         {/* visable on laptops and desktops */}
                             <Breakpoint large up>
+
+                            <ProjectLargeViewport name="Food &amp; Recipes" src={Recipes} languages="HTML, CSS, Bootstrap, Javascript, Node.js, React" webpage="https://worldwide-cooking.herokuapp.com/" code="https://github.com/TannerGalloway/Cookbook"/>
 
                             <ProjectLargeViewport name="Word Guessing Game" src={WordGuess} languages="HTML, CSS, Javascript" webpage="https://tannergalloway.github.io/Word-Guess-Game/" code="https://github.com/TannerGalloway/Word-Guess-Game"/>
 
@@ -52,12 +55,14 @@ class Projects extends Component{
 
                             <ProjectLargeViewport name="Memory Game" src={Memorygame} languages="HTML, CSS, Bootstrap, Javascript, React" webpage="https://rocky-retreat-72095.herokuapp.com/" code="https://github.com/TannerGalloway/Clicky-Game"/>
 
-                            <ProjectLargeViewport name="Road Trip Planner" src={RoadTrip} languages="HTML, CSS, Javascript, Node.js, React.js, MongoDB, Express.js" webpage="https://lychee-sundae-50558.herokuapp.com/" code="https://github.com/TannerGalloway/Are-We-There-Yet"/>
+                            <ProjectLargeViewport name="Road Trip Planner" src={RoadTrip} languages="HTML, CSS, Javascript, Node.js, React, MongoDB, Express.js" webpage="https://lychee-sundae-50558.herokuapp.com/" code="https://github.com/TannerGalloway/Are-We-There-Yet"/>
                             </Breakpoint>
 
                             
                         {/* visable on phones and tablets */}
                         <Breakpoint medium down>
+
+                            <ProjectMediumViewport name="Food &amp; Recipes" src={Recipes} languages="HTML, CSS, Bootstrap, Javascript, Node.js, React" webpage="https://worldwide-cooking.herokuapp.com/" code="https://github.com/TannerGalloway/Cookbook"/>
 
                             <ProjectMediumViewport name="Word Guessing Game" src={WordGuess} languages="HTML, CSS, Javascript" webpage="https://tannergalloway.github.io/Word-Guess-Game/" code="https://github.com/TannerGalloway/Word-Guess-Game"/>
 
