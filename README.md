@@ -3,6 +3,6 @@
 This Portfolio contains:
 * Link to my Resume
 * About Me Section
-* The Skills That I have
-* Projects that I have created
+* The Skills I have obtained
+* Projects I have created
 * Contact Form 

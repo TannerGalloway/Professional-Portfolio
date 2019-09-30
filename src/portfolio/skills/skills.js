@@ -30,9 +30,9 @@ class Skills extends Component{
                     <hr></hr>
                 </div>
                 <div className="content">
-                        <p className="skillsParagraph">My main area of expertise is front-end developement.
+                        <p className="skillsParagraph">My main area of expertise is Front-end developement.
                         <br></br>
-                        Though I also have back-end development experience.
+                        Though I also have Back-end development experience.
                         </p>
 
                         <div className="skills front-end">
