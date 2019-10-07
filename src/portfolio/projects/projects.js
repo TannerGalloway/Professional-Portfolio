@@ -12,8 +12,6 @@ import GiphyGifs from "../../images/project-thumbnails/giphy-gifs.png";
 import TrainSchedule from "../../images/project-thumbnails/TrainSchedule.jpg";
 import FriendFinder from "../../images/project-thumbnails/FriendFinder.png";
 import Burger from "../../images/project-thumbnails/burger.png";
-import APINode from "../../images/project-thumbnails/terminal.png";
-import Bamazon from "../../images/project-thumbnails/online-store.jpg";
 import Webscrape from "../../images/project-thumbnails/web-scraper.png";
 import Memorygame from "../../images/project-thumbnails/memory-game.jpg";
 import RoadTrip from "../../images/project-thumbnails/Road-Trip-Planner.jpg";
@@ -36,29 +34,26 @@ class Projects extends Component{
 
                             <ProjectLargeViewport name="Food &amp; Recipes" src={Recipes} languages="HTML, CSS, JS, Node.js, React" webpage="https://worldwide-cooking.herokuapp.com/" code="https://github.com/TannerGalloway/Cookbook"/>
 
+                            <ProjectLargeViewport name="Trivia Game" src={Trivia} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/TriviaGame/" code="https://github.com/TannerGalloway/TriviaGame"/>
+
                             <ProjectLargeViewport name="Word Guessing Game" src={WordGuess} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/Word-Guess-Game/" code="https://github.com/TannerGalloway/Word-Guess-Game"/>
 
                             <ProjectLargeViewport name="RNG Matching Game" src={RNGGame} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/RNG-Matching-Game/" code="https://github.com/TannerGalloway/RNG-Matching-Game"/>
 
-                            <ProjectLargeViewport name="Trivia Game" src={Trivia} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/TriviaGame/" code="https://github.com/TannerGalloway/TriviaGame"/>
-
                             <ProjectLargeViewport name="Gifs &amp; Movies" src={GiphyGifs} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/GifTastic/" code="https://github.com/TannerGalloway/GifTastic"/>
+
+                            <ProjectLargeViewport name="Eat Da Burger" src={Burger} languages="HTML, CSS, JS, Jquery, Express, MySQL" webpage="https://guarded-garden-22512.herokuapp.com/" code="https://github.com/TannerGalloway/burger"/>
+
+                            <ProjectLargeViewport name="Memory Game" src={Memorygame} languages="HTML, CSS, JS, React" webpage="https://rocky-retreat-72095.herokuapp.com/" code="https://github.com/TannerGalloway/Clicky-Game"/>
+
+                            <ProjectLargeViewport name="News Web Scraper" src={Webscrape} languages="HTML, CSS, JS, Express, Node.js, MongoDB" webpage="https://warm-reaches-64828.herokuapp.com/" code="https://github.com/TannerGalloway/MongoScraper"/>
+
+                            <ProjectLargeViewport name="Road Trip Planner" src={RoadTrip} languages="HTML, CSS, JS, Node.js, React, MongoDB, Express" webpage="https://lychee-sundae-50558.herokuapp.com/" code="https://github.com/TannerGalloway/Are-We-There-Yet"/>
 
                             <ProjectLargeViewport name="Train Schedule" src={TrainSchedule} languages="HTML, CSS, JS, Firebase" webpage="https://tannergalloway.github.io/Train-Schedule/" code="https://github.com/TannerGalloway/Train-Schedule"/>
 
                             <ProjectLargeViewport name="Friend Finder" src={FriendFinder} languages="HTML, CSS, JS, Node.js, Express" webpage="https://quiet-inlet-49165.herokuapp.com/" code="https://github.com/TannerGalloway/Friend-Finder"/>
 
-                            <ProjectLargeViewport name="Eat Da Burger" src={Burger} languages="HTML, CSS, JS, Jquery, Express, MySQL" webpage="https://guarded-garden-22512.herokuapp.com/" code="https://github.com/TannerGalloway/burger"/>
-
-                            <ProjectLargeViewport name="API Node App" src={APINode} languages="JS, Node.js, Terminal" webpage="https://github.com/TannerGalloway/API-Node-App" code="https://github.com/TannerGalloway/API-Node-App"/>
-
-                            <ProjectLargeViewport name="Bamazon" src={Bamazon} languages="JS, Node.js, Terminal, MySQL" webpage="https://github.com/TannerGalloway/bamazon" code="https://github.com/TannerGalloway/bamazon"/>
-
-                            <ProjectLargeViewport name="News Web Scraper" src={Webscrape} languages="HTML, CSS, JS, Express, Node.js, MongoDB" webpage="https://warm-reaches-64828.herokuapp.com/" code="https://github.com/TannerGalloway/MongoScraper"/>
-
-                            <ProjectLargeViewport name="Memory Game" src={Memorygame} languages="HTML, CSS, JS, React" webpage="https://rocky-retreat-72095.herokuapp.com/" code="https://github.com/TannerGalloway/Clicky-Game"/>
-
-                            <ProjectLargeViewport name="Road Trip Planner" src={RoadTrip} languages="HTML, CSS, JS, Node.js, React, MongoDB, Express" webpage="https://lychee-sundae-50558.herokuapp.com/" code="https://github.com/TannerGalloway/Are-We-There-Yet"/>
                             </Breakpoint>
 
                             
@@ -69,29 +64,25 @@ class Projects extends Component{
 
                             <ProjectMediumViewport name="Food &amp; Recipes" src={Recipes} languages="HTML, CSS, JS, Node.js, React" webpage="https://worldwide-cooking.herokuapp.com/" code="https://github.com/TannerGalloway/Cookbook"/>
 
+                            <ProjectMediumViewport name="Trivia Game" src={Trivia} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/TriviaGame/" code="https://github.com/TannerGalloway/TriviaGame"/>
+
                             <ProjectMediumViewport name="Word Guessing Game" src={WordGuess} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/Word-Guess-Game/" code="https://github.com/TannerGalloway/Word-Guess-Game"/>
 
                             <ProjectMediumViewport name="RNG Matching Game" src={RNGGame} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/RNG-Matching-Game/" code="https://github.com/TannerGalloway/RNG-Matching-Game"/>
 
-                            <ProjectMediumViewport name="Trivia Game" src={Trivia} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/TriviaGame/" code="https://github.com/TannerGalloway/TriviaGame"/>
-
                             <ProjectMediumViewport name="Gifs &amp; Movies" src={GiphyGifs} languages="HTML, CSS, JS" webpage="https://tannergalloway.github.io/GifTastic/" code="https://github.com/TannerGalloway/GifTastic"/>
+
+                            <ProjectMediumViewport name="Eat Da Burger" src={Burger} languages="HTML, CSS, JS, MySQL" webpage="https://guarded-garden-22512.herokuapp.com/" code="https://github.com/TannerGalloway/burger"/>
+
+                            <ProjectMediumViewport name="Memory Game" src={Memorygame} languages="HTML, CSS, JS, JSX, React" webpage="https://rocky-retreat-72095.herokuapp.com/" code="https://github.com/TannerGalloway/Clicky-Game"/>
+
+                            <ProjectMediumViewport name="News Web Scraper" src={Webscrape} languages="HTML, CSS, JS Node.js, MongoDB" webpage="https://warm-reaches-64828.herokuapp.com/" code="https://github.com/TannerGalloway/MongoScraper"/>
+
+                            <ProjectMediumViewport name="Road Trip Planner" src={RoadTrip}  languages="HTML, CSS, JS, Node.js, JSX, React, MongoDB, Express" webpage="https://lychee-sundae-50558.herokuapp.com/" code="https://github.com/TannerGalloway/Are-We-There-Yet"/>
 
                             <ProjectMediumViewport name="Train Schedule" src={TrainSchedule} languages="HTML, CSS, JS, Firebase" webpage="https://tannergalloway.github.io/Train-Schedule/" code="https://github.com/TannerGalloway/Train-Schedule"/>
 
                             <ProjectMediumViewport name="Friend Finder" src={FriendFinder} languages="HTML, CSS, JS, Node.js, Express " webpage="https://quiet-inlet-49165.herokuapp.com/" code="https://github.com/TannerGalloway/Friend-Finder"/>
-
-                            <ProjectMediumViewport name="Eat Da Burger" src={Burger} languages="HTML, CSS, JS, MySQL" webpage="https://guarded-garden-22512.herokuapp.com/" code="https://github.com/TannerGalloway/burger"/>
-
-                            <ProjectMediumViewport name="API Node App" src={APINode} languages="JS, Node.js, Terminal" webpage="https://github.com/TannerGalloway/API-Node-App" code="https://github.com/TannerGalloway/API-Node-App"/>
-
-                            <ProjectMediumViewport name="Bamazon" src={Bamazon} languages="JS, Node.js, Terminal, MySQL" webpage="https://github.com/TannerGalloway/bamazon" code="https://github.com/TannerGalloway/bamazon"/>
-
-                            <ProjectMediumViewport name="News Web Scraper" src={Webscrape} languages="HTML, CSS, JS Node.js, MongoDB" webpage="https://warm-reaches-64828.herokuapp.com/" code="https://github.com/TannerGalloway/MongoScraper"/>
-                            
-                            <ProjectMediumViewport name="Memory Game" src={Memorygame} languages="HTML, CSS, JS, JSX, React" webpage="https://rocky-retreat-72095.herokuapp.com/" code="https://github.com/TannerGalloway/Clicky-Game"/>
-
-                            <ProjectMediumViewport name="Road Trip Planner" src={RoadTrip}  languages="HTML, CSS, JS, Node.js, JSX, React, MongoDB, Express" webpage="https://lychee-sundae-50558.herokuapp.com/" code="https://github.com/TannerGalloway/Are-We-There-Yet"/>
 
                         </Breakpoint>
                 </div>
