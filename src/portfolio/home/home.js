@@ -12,7 +12,7 @@ class Home extends Component{
 			<div className="intro">
 				<h1 className="logo">TG</h1>
 				<h1 className="intro-title">Tanner Galloway</h1>
-				<h1 className="intro-role">a junior web developer</h1>
+				<h1 className="intro-role">a Full-Stack Web Developer</h1>
 				<h1 className="intro-subtitle">with a passion for improvement.</h1>
 				<Link
                     to="about"

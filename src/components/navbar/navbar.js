@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import "./navbar.css";
 import {Navbar, Nav} from "react-bootstrap";
 import {Link} from "react-scroll";
-import Resume from "../../images/Resume.pdf";
 
 class Navigation extends Component{
     
@@ -45,7 +44,7 @@ class Navigation extends Component{
                         duration= {1000}
                     >Skills</Link>
 
-                    {/* scroll to projecets */}
+                    {/* scroll to projects */}
                     <Link
                         activeClass="active"
                         to="projects-content"
@@ -64,8 +63,7 @@ class Navigation extends Component{
                         offset={-50}
                         duration= {1000}
                     >Contact</Link>
-
-                    <Nav.Link href={Resume} target="parent">Resume</Nav.Link>
+                    
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://github.com/TannerGalloway?tab=repositories" target="blank"><i className="fab fa-github"></i></Nav.Link>

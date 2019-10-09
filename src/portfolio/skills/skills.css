@@ -70,9 +70,9 @@ hr{
     }
 
     .back-end{
-        left: 275px;
+        left: 235px;
         height: 110px;
-        width: 490px; 
+        width: 575px; 
     }
 }
 
@@ -83,7 +83,7 @@ hr{
     }
 
     .back-end{
-        left: 515px;
+        left: 475px;
         height: 110px;
     }
 }
@@ -95,9 +95,9 @@ hr{
     }
 
     .back-end{
-        left: 675px;
+        left: 633px;
         height: 110px;
-        width: 490px; 
+        width: 575px; 
     }
 }
 
@@ -110,7 +110,7 @@ hr{
     }
 
     .back-end{
-        height: 180px;
+        height: 255px;
         width: 260px; 
     }
 }

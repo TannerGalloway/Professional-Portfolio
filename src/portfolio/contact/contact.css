@@ -78,7 +78,7 @@ textarea {
     }
 
     .contact{
-        height: 63vh;
+        height: 90vh;
     }
 } 
 
@@ -98,7 +98,7 @@ textarea {
     }
 
     .contact{
-        height: 85vh;
+        height: 90vh;
     }
 }
 
@@ -141,6 +141,11 @@ textarea {
         position: relative;
         left: 35px;
         width: 300px;
+    }
+    
+    #email, #subject, #message{
+        left: 0px;
+        width: 275px;
     }
 
     .contact{

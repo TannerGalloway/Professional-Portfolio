@@ -19,6 +19,7 @@ import sequelize_logo from "../../images/back-end-skills/sequelize_logo.png";
 import mongoDB_logo from "../../images/back-end-skills/MongoDB_logo.png";
 import mongoose_logo from "../../images/back-end-skills/mongoose_logo.png";
 import firebase_logo from "../../images/back-end-skills/firebase_logo.png";
+import heroku_logo from "../../images/back-end-skills/heroku_logo.png";
 
 class Skills extends Component{
     
@@ -30,10 +31,7 @@ class Skills extends Component{
                     <hr></hr>
                 </div>
                 <div className="content">
-                        <p className="skillsParagraph">My main area of expertise is Front-end developement.
-                        <br></br>
-                        Though I also have Back-end development experience.
-                        </p>
+                        <p className="skillsParagraph"> Here you will find a list of languages I speak and libraries I use.</p>
 
                         <div className="skills front-end">
                             <h5 className="skillBoxText">Front-End:</h5>
@@ -55,6 +53,7 @@ class Skills extends Component{
                             <Skillsdiv src={mongoose_logo} alt="Mongoose Logo"/>
                             <Skillsdiv src={firebase_logo} alt="Firebase Logo"/>
                             <Skillsdiv src={expressJS_logo} alt="Express js Logo"/>
+                            <Skillsdiv src={heroku_logo} alt="Heroku Logo"/>
                         </div>
                         <br></br>
                 </div>
